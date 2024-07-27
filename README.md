@@ -36,7 +36,7 @@ curl -s http://ADDRESS:PORT/
   ```
   [
     {
-      id": 1,
+    "id": 1,
      "title": "play",
      "description": "play football tomorrow   evening"
     },
@@ -52,10 +52,11 @@ curl -s http://ADDRESS:PORT/
   ```
   **Request Body:**
   ```
- {
+  {
   "title":"shopping",
   "description":"shop some vegetables"
- }
+  }
+   
   ```
   **Response:**
   ```
@@ -64,7 +65,7 @@ curl -s http://ADDRESS:PORT/
   "title": "shopping",
   "description": "shop some vegetables",
   "checked": false
- }
+  }
   ```
 
 - `PUT` `/api/todos/{id}` -> Check todo
